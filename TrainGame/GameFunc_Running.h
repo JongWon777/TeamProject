@@ -8,6 +8,7 @@ private:
 	SDL_Texture* background_texture_;
 	SDL_Rect background_source_rect_;
 	SDL_Rect background_destination_rect_;
+	int speed_;
 public:
 	Running();
 	~Running();
